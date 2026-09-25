@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated data & checkpoints (regenerable; live on the data drive)
+*.jsonl
+*.pt
+.public-cache/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+auth.json
+free.json
+providers.json
+
+# Scratch / test artifacts
+.kilo-mint-test.json
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
